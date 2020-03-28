@@ -49,11 +49,6 @@ def main():
             test_cases.append(dict(zip(input_label, test_case_mapped)))
             i += 1
 
-        print(state_space)
-        print(test_cases)
-        print(transition_table)
-        print(rules)
-
     except IOError:
         print("Input not in valid format")
 
